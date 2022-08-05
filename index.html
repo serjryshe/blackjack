@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="game-window">
+        <h1>Blackjack</h1>
+        
+        <p id="text-message">Want to play a game?</p>
+        <p id="cards-el">Cards: </p>
+        <p id="cards-sum">Sum: </p>
+        <button id="button-start" onclick="startGame()">START GAME</button>
+        <button id="button-new-card" onclick="getNewCard()">NEW CARD</button>
+        <p id="balance-el">Your Account Balance: </p>
+        <p id="balance-el-msg"></p>
+        <button onclick="addToAccount()">ADD 10 $</button>
+        <p id="counter-el">Times Played:  </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+#game-window {
+    background-color: green;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 62px;
+}
+
+#text-message, #cards-el {
+    color: white;
+    font-size: 24px;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin: auto;
+}
+
+button:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
